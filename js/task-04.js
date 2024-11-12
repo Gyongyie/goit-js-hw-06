@@ -13,3 +13,10 @@ decrementButton.addEventListener("click", () => {
   counterValue -= 1;
   updateDisplay(); // Actualizăm afișajul
 });
+incrementButton.addEventListener("click", () => {
+  counterValue += 1;
+  updateDisplay();
+});
+
+console.log(decrementButton); 
+console.log(incrementButton);

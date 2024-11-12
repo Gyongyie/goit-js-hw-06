@@ -21,6 +21,8 @@ document.addEventListener("DOMContentLoaded", () => {
         .join("");
 
     gallery.insertAdjacentHTML("beforeend", galleryMarkup);
-  
+  console.log(gallery);
 });
+
+
 

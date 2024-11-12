@@ -16,4 +16,7 @@ ingredients.forEach(ingredient => {
   ingredientsList.appendChild(li);         // Adaugă elementul <li> la lista <ul>
 });
 
+console.log(ingredientsList);
+
+
 
